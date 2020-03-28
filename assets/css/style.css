@@ -16,3 +16,17 @@ body {
   background-image: url(../images/clarissa-watson-0aLt3QExk3Y-unsplash.jpg);
   background-size: cover;
 }
+
+div {
+  background-color: rgba(255, 255, 255, 0.548);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  padding: 30px;
+  font-weight: 700;
+}
