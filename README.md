@@ -20,21 +20,16 @@ Access the live webapp: [Guess That Letter](https://maserallm.github.io/Psychic-
 | Twitter Bootstrap |
 | HTML5             |
 
-<!-- | API                    |
-| ---------------------- |
-| Google Maps Javascript | -->
-
 ---
 
 ### Installation
 
 #### Prerequisites
 
-You must have the following installed to run RC Fit 7:
+You must have the following installed to run Guess that Letter:
 
-- [Node](https://nodejs.org/en/)
-- [MongoDB](https://www.mongodb.com/)
-- [.env](https://www.npmjs.com/package/dotenv)
+- [Code Editor](https://www.elegantthemes.com/blog/resources/best-code-editors)
+- [Twitter Bootstrap](https://getbootstrap.com/)
 - [API key for Google Maps JavaScript](https://developers.google.com/maps/documentation/javascript/tutorial)
 
 #### Run RC Fit 7 on your local computer
