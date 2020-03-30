@@ -30,13 +30,8 @@ You must have the following installed to run Guess that Letter:
 
 - [Code Editor](https://www.elegantthemes.com/blog/resources/best-code-editors)
 - [Twitter Bootstrap](https://getbootstrap.com/)
-- [API key for Google Maps JavaScript](https://developers.google.com/maps/documentation/javascript/tutorial)
 
-#### Run RC Fit 7 on your local computer
-
-Download Compass GUI from [MongoDB Compass](https://www.mongodb.com/products/compass) or the Robo3t GUI from [Robomongo](https://robomongo.org/)
-
-> Both Compass and Robo 3t allow you to view the data that is being persisted to your database locally. Gives you the ability to modify, insert, and delete data manually in the GUI.
+#### Run on your local computer
 
 Clone or fork repository:
 
