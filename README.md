@@ -30,42 +30,21 @@ You must have the following installed to run Guess that Letter:
 
 - [Code Editor](https://www.elegantthemes.com/blog/resources/best-code-editors)
 - [Twitter Bootstrap](https://getbootstrap.com/)
+- [Internet Browser](https://download.cnet.com/browsers-web/)
 
 #### Run on your local computer
 
 Clone or fork repository:
 
-    $ git clone git@github.com:Nadia-Kadri/RCFit7.git
+    $ git clone git@github.com:Maserallm/Psychic-Game.git
 
-Create environment inside your root directory:
-
-```
-$ touch .env
-```
-
-Inside of .env file insert:
+CD into Psychic-Game folder
 
 ```
-PASSPORT_SECRET=developer
+$ cd Pyschic-Game
 ```
 
-You may change the word 'developer' to whatever you like. This word is used when encrypting and decrypting the user's password for Passport.js
-
-Install dependencies:
-
-```
-$ npm install
-```
-
-<!-- Set your Google API restriction to your local IP address only and then add your Google Map API key into the moodMap.jsx file
-
-    GoogleMapScript.src = `https://maps.googleapis.com/maps/api/js?key=YourAPIKey&libraries=places` -->
-
-Run the app from the command line
-
-```
-$ npm start
-```
+Open folder in code editor and open the index.html file in the browser.
 
 ---
 
