@@ -1,37 +1,24 @@
-# Psychic-Game
+# Guess That Letter
 
-This app randomly picks a letter, and the user has to guess which letter the app chose! Choose each letter wisely as you only have seven chances to guess the right letter.
+This front-end app randomly picks a letter, and the user has to guess which letter the app chose! Choose each letter wisely as you only have seven chances to guess the right letter.
 
-RC Fit 7 is a full-stack web application that allows users to sign-up for fitness classes with certain trainers, and track the classes they've taken.
-
-Access the live webapp: [RC Fit 7](https://rcfit7-react-app.herokuapp.com/)
-
-The RC Fit app has a custom administrator feature built using MongoDB that enables the admin to create classes, add trainers, and view which users are signed up to specific classes.
-
-This project was created at Trilogy Education Services through the University of Central Florida over three weeks beginning February 2020.
-
-![Homepage](https://media.giphy.com/media/Sw00jEgoSKOuwcRjrb/giphy.gif "Homepage")
+Access the live webapp: [Guess That Letter](https://maserallm.github.io/Psychic-Game/)
 
 ## Contents
 
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Features](#features)
-- [Features for V2.0](#featuresforv2.0)
-- [About the Developers](#aboutthedeveloper)
+- [About the Developer](#aboutthedeveloper)
 
 ### Technologies
 
-| Backend  | Frontend           |
-| -------- | ------------------ |
-| Node     | Javascript 6       |
-| MongoDB  | React 16.2         |
-| Mongoose | CSS3               |
-| Express  | Twitter Bootstrap  |
-| Axios    | React Big Calendar |
-| Moment   | React Router Dom   |
-| Passport | HTML5              |
-| Nodemon  | jQuery 3.4.1       |
+| Frontend          |
+| ----------------- |
+| Javascript 6      |
+| CSS3              |
+| Twitter Bootstrap |
+| HTML5             |
 
 <!-- | API                    |
 | ---------------------- |
