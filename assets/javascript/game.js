@@ -127,10 +127,9 @@ function restart() {
   numOfRemGuess = 7;
   computerGuess = guessLetters[Math.floor(Math.random() * guessLetters.length)];
 }
-//restart();
 
 document.onkeyup = function(event) {
-  let userGuess = event.key;
+  const userGuess = event.key;
 
   if (userGuess === computerGuess) {
     wins++;
