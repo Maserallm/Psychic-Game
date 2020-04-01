@@ -36,7 +36,9 @@ let numOfRemGuess = 7;
 let wins = 0;
 let loss = 0;
 
-let container = document.querySelector(".container");
+const container = document.querySelector(".container");
+const src = "https://media1.giphy.com/media/xT9IgFlWsUMDFzVIu4/giphy.webp";
+const alt = "Willy Wonka gif";
 
 let gameHTML = `
 <div class="row border m-3">
@@ -55,8 +57,8 @@ let gameHTML = `
           id="fresh-gif"
           width="100%"
           height="100%"
-          src="https://media1.giphy.com/media/xT9IgFlWsUMDFzVIu4/giphy.webp"
-          alt="Willy Wonka gif"
+          src=${src}
+          alt=${alt}
         />
       </div>
     </div>
@@ -115,9 +117,6 @@ let remainGuess = document.querySelector("#hints");
 const img = document.querySelector("#fresh-gif");
 
 function start() {
-  //   for (var i = 0; i < guessLetters.length; i++) {
-  //     charOfGuess[i] = "_";
-  //   }
   console.log("Started!");
   charOfGuess = [];
   numOfRemGuess = 7;
@@ -130,7 +129,6 @@ function restart() {
   charOfGuess = [];
   numOfRemGuess = 7;
   computerGuess = guessLetters[Math.floor(Math.random() * guessLetters.length)];
-  //   img.src = "https://media1.giphy.com/media/xT9IgFlWsUMDFzVIu4/giphy.webp";
 }
 //restart();
 
