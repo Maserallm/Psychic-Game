@@ -27,12 +27,9 @@ let guessLetters = [
   "z"
 ];
 
-// //let userGuess = "";
-// let randomLet = "";
-// let blank = 0;
 let charOfGuess = [];
 let numOfRemGuess = 7;
-// let userInput = "";
+
 let wins = 0;
 let loss = 0;
 
@@ -40,7 +37,7 @@ const container = document.querySelector(".container");
 const src = "https://media1.giphy.com/media/xT9IgFlWsUMDFzVIu4/giphy.webp";
 const alt = "Willy Wonka gif";
 
-let gameHTML = `
+const gameHTML = `
 <div class="row border m-3">
       <div class="col-sm pt-3">
         <h2>Here's The Test</h2>
@@ -63,7 +60,7 @@ let gameHTML = `
       </div>
     </div>
 
-    <div class="row text-center">
+    <section class="row text-center">
       <div class="col-sm-7">
         <h3 class="text-center border-bottom">Let's Play!</h3>
         <div class="pb-5" id="hints"></div>
@@ -102,15 +99,15 @@ let gameHTML = `
           </tbody>
         </table>
       </div>
-    </div>
+    </section>
 `;
 
 const myFragment = document.createRange().createContextualFragment(gameHTML);
 console.log(myFragment);
 container.appendChild(myFragment);
 
-let numberOfWins = document.querySelector("#numberOfWins");
-let numberOfLosses = document.querySelector("#numberOfLosses");
+const numberOfWins = document.querySelector("#numberOfWins");
+const numberOfLosses = document.querySelector("#numberOfLosses");
 let typedGuesses = document.querySelector("#typedGuesses");
 let userWordGuess = document.querySelector("#userWordGuess");
 let remainGuess = document.querySelector("#hints");
