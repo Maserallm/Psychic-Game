@@ -36,6 +36,77 @@ let numOfRemGuess = 7;
 let wins = 0;
 let loss = 0;
 
+let container = document.querySelector(".container");
+
+let gameHTML = `
+<div class="row border m-3">
+      <div class="col-sm pt-3">
+        <h2>Here's The Test</h2>
+        <h4>The Rules:</h4>
+        <p class="lead">
+          Use the keyboard to guess the letter! Your number of guesses are
+          limited so be wise and have fun!
+        </p>
+
+        <p class="text-muted">(To restart game and score, refresh page.</p>
+      </div>
+      <div class="col-sm">
+        <img
+          id="fresh-gif"
+          width="100%"
+          height="100%"
+          src="https://media1.giphy.com/media/xT9IgFlWsUMDFzVIu4/giphy.webp"
+          alt="Willy Wonka gif"
+        />
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-sm-7">
+        <h3 class="text-center border-bottom">Let's Play!</h3>
+        <div class="pb-5" id="hints"></div>
+        <div class="word-container" height="auto">
+          <h3 id="userWordGuess"></h3>
+        </div>
+        <div class="word-container-2" height="auto">
+          <h4 id="correct"></h4>
+        </div>
+      </div>
+      <div class="col-sm-5 text-center border-left border-dark">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Typed Guesses</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="p-4" id="typedGuesses"></td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="table table-bordered" id="result">
+          <thead>
+            <tr>
+              <th scope="col">Number of Wins</th>
+              <th scope="col">Number of Losses</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="p-4" id="numberOfWins"></td>
+              <td class="p-4" id="numberOfLosses"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+`;
+
+const myFragment = document.createRange().createContextualFragment(gameHTML);
+console.log(myFragment);
+container.appendChild(myFragment);
+
 let numberOfWins = document.querySelector("#numberOfWins");
 let numberOfLosses = document.querySelector("#numberOfLosses");
 let typedGuesses = document.querySelector("#typedGuesses");

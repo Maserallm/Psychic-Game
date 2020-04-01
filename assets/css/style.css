@@ -11,10 +11,11 @@ section {
 }
 
 body {
-  min-height: 100vh;
-  min-width: 100vh;
+  height: 100vh;
+  max-width: 900px;
   background-image: url(../images/clarissa-watson-0aLt3QExk3Y-unsplash.jpg);
   background-size: cover;
+  margin: auto;
 }
 
 div {
@@ -33,4 +34,18 @@ div {
 
 #fresh-gif {
   margin-left: 44px;
+}
+
+@media (min-wdith: 500px) {
+  body {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  #fresh-gif {
+    height: 100%;
+    width: 100%;
+  }
 }
