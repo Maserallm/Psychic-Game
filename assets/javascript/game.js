@@ -108,9 +108,9 @@ container.appendChild(myFragment);
 
 const numberOfWins = document.querySelector("#numberOfWins");
 const numberOfLosses = document.querySelector("#numberOfLosses");
-let typedGuesses = document.querySelector("#typedGuesses");
-let userWordGuess = document.querySelector("#userWordGuess");
-let remainGuess = document.querySelector("#hints");
+const typedGuesses = document.querySelector("#typedGuesses");
+const userWordGuess = document.querySelector("#userWordGuess");
+const remainGuess = document.querySelector("#hints");
 const img = document.querySelector("#fresh-gif");
 
 function start() {
